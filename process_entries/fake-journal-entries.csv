@@ -1,4 +1,4 @@
-date,entry
+date,entry,tags
 "May 15, 2017","Dear Diary,
 Another late night in the engineering lab. The fluorescent lights are making my eyes hurt, but I can't stop thinking about Professor Chen's question from today's Advanced Materials class: ""What kind of mark do you want to leave on the world?""
 Back home in Shenzhen, the path was always clear - study hard, get good grades, make my parents proud. But here in America, everyone keeps asking about passion, about dreams. My classmates talk about startups and changing the world, while I'm still trying to figure out if I'm even allowed to dream that big.
@@ -8,7 +8,7 @@ My roommate says I need to ""put myself out there more,"" whatever that means. B
 It's almost 1 AM. The security guard just did his rounds and gave me that look again - the one that says ""go home, kid."" Maybe he's right.
 Tomorrow is another day of questions without answers.
 
-"
+",
 "December 8, 2018","
 Dear Diary,
 
@@ -31,7 +31,7 @@ Is this what they mean when they say ""when you know, you know""?
 Ming
 P.S. Need to remember to fix that bug in our joint project before Tuesday's presentation. Even if her smile is very distracting.
 
-"
+",
 "April 15, 2019","Dear Diary,
 3 AM again. The city that never sleeps. From my window on the 32nd floor, I can see the Williamsburg Bridge lit up against the darkness - one of Moses's lesser works, according to Caro. Sarah's asleep in the bedroom; she has an early meeting tomorrow at her consulting firm.
 This book has gotten under my skin in a way I didn't expect. Moses began as an idealist, didn't he? The swimming pools, the parks, the grand vision of public works. But power corrupted him so gradually he didn't even notice. Like a frog in slowly boiling water. How many lives did he destroy in the name of ""progress""?
@@ -45,7 +45,7 @@ The bridge is still glowing. Thousands of lives crossing between boroughs, follo
 
 Ming
 
-P.S. Need to call Mama tomorrow. She'll worry if I don't update her about the bonus news."
+P.S. Need to call Mama tomorrow. She'll worry if I don't update her about the bonus news.",
 "July 23, 2019","Dear Diary,
 I woke up at 4 AM, drenched in sweat, the dream still clinging to me like Shanghai humidity. Sarah asked what was wrong, but I couldn't explain. How do you describe a dream where your mother turns into a dragon while making dumplings in your Manhattan kitchen?
 In the dream, Mama was teaching Sarah how to fold the perfect jiǎozi, just like she promised she would when she visits next month. Her hands moved with that familiar precision, each fold exact, while Sarah struggled to copy her. But every time Sarah made a mistake, Mama would grow slightly larger, more serpentine. Her criticisms came out as smoke.
@@ -62,7 +62,7 @@ I should try to sleep again. Big presentation tomorrow about the new trading alg
 
 Ming
 
-P.S. Need to confirm Mama's flight details and make sure the guest room is perfect. No dragons allowed."
+P.S. Need to confirm Mama's flight details and make sure the guest room is perfect. No dragons allowed.",
 "December 25, 2019","Dear Diary,
 My heart feels so full tonight I can barely contain it. The apartment still smells like the blend of Mama's red-braised pork and Sarah's attempted apple pie (slightly burned, but made with so much love). Baba is snoring softly on the couch, still wearing the ridiculous Santa hat Sarah bought him, while Mama keeps trying to force leftovers on everyone even though we're all stuffed.
 I caught a moment today that I want to remember forever: Mama was teaching Sarah how to use chopsticks properly (yes, after two years, she still struggles sometimes), and Baba was watching them with this soft smile I've rarely seen. Then Mama said something in Mandarin about Sarah being ""我们的女儿"" (our daughter), thinking Sarah wouldn't understand. But Sarah did understand - her Mandarin has gotten so good - and she started crying happy tears. Then everyone was crying and hugging, even Baba, who never cries.
@@ -76,7 +76,7 @@ I think I hear Sarah coming. She's probably wondering why I'm writing instead of
 
 Ming
 
-P.S. Need to practice my proposal speech. And maybe check the weather forecast for New Year's Eve. And make sure the ring is the right size. And..."
+P.S. Need to practice my proposal speech. And maybe check the weather forecast for New Year's Eve. And make sure the ring is the right size. And...",
 "March 4, 2020","
 Dear Diary,
 
@@ -103,7 +103,7 @@ I'll wait. I'm good at optimizing systems, but maybe this isn't a system that ne
 - Ming
 
 P.S. The ring box is collecting dust. For now, that's okay. It needs to be the right moment. Everything needs to be perfect. I can wait.
-"
+",
 "March 28, 2020","
 Dear Diary,
 
@@ -130,7 +130,7 @@ The sun is setting now. Another day of waiting, of WhatsApp messages and WeChat 
 - Ming
 
 P.S. Need to remember to eat. Sarah keeps leaving snacks by my laptop. Small acts of love in the time of COVID.
-"
+",
 "April 12, 2023","Dear Diary,
 
 How long has it been? The pages feel stiff, unused. Found this journal while unpacking yet another box (will we ever be fully moved in?). Felt compelled to write something, watching the fog roll over Twin Peaks from our new apartment.
@@ -155,7 +155,7 @@ Spring in San Francisco is different from New York. More subtle. Like the city i
 - Ming
 
 P.S. Wedding planning begins next month. Mama has opinions. Many, many opinions.
-"
+",
 "April 15, 2023","
 Dear Diary,
 
@@ -183,7 +183,7 @@ The fog is rolling in. Should sleep. But first, one more sketch...
 - Ming
 
 P.S. Note to self: Apologize to Sarah for the napkin thing. Again.
-"
+",
 "May 3, 2023","
 Dear Diary,
 
@@ -212,7 +212,7 @@ The engagement ring on her finger caught the light when she was making tea earli
 - Ming
 
 P.S. The worst part? Some small, horrible part of me understands why she turns to him. He probably never tries to debug her feelings like they're broken code.
-"
+",
 "May 28, 2023","
 Dear Diary,
 
@@ -247,7 +247,7 @@ Time to be the person they can't ignore.
 - Ming
 
 P.S. Need to increase protein intake. And maybe get that blue suit tailored again. Power is in the details.
-"
+",
 "June 15, 2023","
 Dear Diary,
 
@@ -288,7 +288,7 @@ Tonight I dream in algorithms and market sizes.
 P.S. Need to hire a good patent attorney. And maybe time to buy that Tesla - VCs take you more seriously when you look the part.
 
 P.P.S. Sarah left another note about wedding venue visits. Will look at it tomorrow. Or next week. There's time for that later.
-"
+",
 "June 16, 2023","
 Dear Diary,
 
@@ -325,7 +325,7 @@ The fog is getting thicker. In a few hours, I'll put on my carefully tailored su
 
 - Ming
 
-P.S. The last time I wrote a poem was seven months ago. Maybe that means something."
+P.S. The last time I wrote a poem was seven months ago. Maybe that means something.",
 "September 8, 2023","
 Dear Diary,
 
@@ -352,7 +352,7 @@ Still, I kept the receipt. And made a spreadsheet of alternation timelines. Some
 
 P.S. Note to self: Research proper emotional responses for when she shows the dress to Mama. This will require careful diplomatic management.
 
-P.P.S. David suggested a good therapist who specializes in pre-wedding anxiety. I might actually take his recommendation. Wouldn't that be something?"
+P.P.S. David suggested a good therapist who specializes in pre-wedding anxiety. I might actually take his recommendation. Wouldn't that be something?",
 "September 17, 2023","
 Dear Diary,
 
@@ -387,7 +387,7 @@ Maybe next time we'll bring our kids.
 P.S. Note to self: Buy better waterproof gear. My startup founder aesthetic got real wet and uncomfortable out there.
 
 P.P.S. Kevin's fishing spreadsheet actually has some interesting applications for temporal pattern recognition. But that's for another day.
-"
+",
 "September 21, 2023","
 Dear Diary,
 
@@ -425,7 +425,7 @@ that will never know the sun
 
 - Ming
 
-(Sarah found me writing this at 3 AM and asked if I was okay. How do you explain that sometimes you need to write bad poetry just to remember who you are?)"
+(Sarah found me writing this at 3 AM and asked if I was okay. How do you explain that sometimes you need to write bad poetry just to remember who you are?)",
 "September 23, 2023","
 Dear Diary,
 
@@ -463,7 +463,7 @@ Maybe both. Maybe all. Maybe that's what Dr. Goldstein is trying to tell me.
 P.S. Need to research the historical significance of Persian rugs in psychoanalysis. There has to be a pattern there too.
 
 P.P.S. Dreamt of debugging in classical Chinese again. This time the error messages were in Mama's voice.
-"
+",
 "March 12, 2024","
 Dear Diary,
 
@@ -485,7 +485,7 @@ Watching her now, commanding her team through a crisis while perfecting our invi
 Her promotion at Tesla has lit something in her. She comes home with that same excitement we used to have in college, talking about manufacturing optimization and sustainable energy until 2 AM. Last night we ended up whiteboarding solutions for her production line issue, just like old times in the robotics lab. Except now we're drinking much better coffee and wearing real adult clothes.
 
 The wedding is in five months. Mama is flying in next week to begin her official inspection of all arrangements. Sarah just laughed and said ""Deploy to production!"" when I mentioned this. She's learning to speak both languages - tech and Chinese family dynamics.
-"
+",
 "March 15, 2024","
 Dear Diary,
 
@@ -527,7 +527,7 @@ Mama says the funeral will be next week. Traditional. Nai Nai left detailed inst
 - Ming
 
 P.S. The last time I called, she was too weak to talk much, but she still asked if I was eating enough.
-"
+",
 "March 30, 2024","
 Dear Diary,
 
@@ -574,7 +574,7 @@ Sleep seems impossible now. The rain against the window sounds like armies march
 P.S. Need to remember: Caesar's end came not from his enemies, but from those closest to him who felt he'd changed too much.
 
 P.P.S. Sarah says I'm getting too intense about this. Maybe she's right. But then again, they probably told Caesar the same thing.
-"
+",
 "July 2, 2024","
 Dear Diary,
 
@@ -619,7 +619,7 @@ How do you write code for a broken heart?
 
 P.S. The jade plant she was trying to grow... I'll water it. At least I can keep something alive.
 
-P.P.S. Found a half-written poem in her drawer about cherry blossoms and algorithms. She was trying to speak my language until the end. I never even knew."
+P.P.S. Found a half-written poem in her drawer about cherry blossoms and algorithms. She was trying to speak my language until the end. I never even knew.",
 "July 5, 2024","
 Dear Diary,
 
@@ -656,7 +656,7 @@ Tomorrow I'll be sore. My body will remind me I'm not 13 anymore. But tonight, f
 我想我终于明白了一些事情
 (I think I finally understand something)
 
-Some problems can't be solved with algorithms. "
+Some problems can't be solved with algorithms. ",
 "July 6, 2024","
 Dear Diary,
 
@@ -704,7 +704,7 @@ The morning commute is starting. Time to put the mask back on. Time to be the su
 - Ming
 
 P.S. A girl just walked past with a skateboard. The sound of wheels on concrete. Maybe that's enough reason to stay.
-"
+",
 "July 30, 2024","
 Dear Diary,
 
@@ -761,4 +761,6 @@ Sarah used to say I never let myself be bad at anything. Maybe that's why I need
 P.S. Need to buy better tennis shoes. These blisters are getting ridiculous.
 
 P.P.S. Caught myself analyzing pro tennis matches on YouTube at 2 AM. Old habits die hard.
-"
+",
+2025-02-15,My boss is such a twat.,
+2025-02-15,"I hate fig newtons, I think they're so gross. I don't know what Louis CK was on about. And Verizon is great!",new_thought
