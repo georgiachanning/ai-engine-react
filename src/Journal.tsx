@@ -1,4 +1,5 @@
 import { Calendar, Lightbulb, Search } from "lucide-react"
+import { useState } from "react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -6,6 +7,47 @@ import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 export default function JournalApp() {
+    const [searchQuery, setSearchQuery] = useState("")
+    const [searchResult, setSearchResult] = useState<string | null>(null)
+    const [isLoading, setIsLoading] = useState(false)
+
+    const handleSearch = async () => {
+      if (!searchQuery.trim()) return;
+  
+      setIsLoading(true);
+      try {
+          console.log("Sending request to API:", searchQuery);
+          const response = await fetch('http://localhost:5001/api/search', { // Update to match Express server
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ query: searchQuery }),
+          });
+  
+          console.log("Raw response:", response);
+  
+          if (!response.ok) throw new Error(`Error: ${response.status}`);
+  
+          const data = await response.json();
+          console.log("API response data:", data);
+  
+          setSearchResult(data.result);
+      } catch (error) {
+          console.error('Search failed:', error);
+          setSearchResult('Sorry, there was an error processing your request.');
+      } finally {
+          setIsLoading(false);
+      }
+  };
+  
+
+    //use effect that will on render - call a fetch to get the list of arrays
+    // format the list of arrays so that it fills the cars when it is map
+    // see the  {[...Array(10)].map((_, i) => ( , make the state on use effect update this array
+    // this array should show the data - {format of the data}
+    // while the fetch is happening, use a promise or a state to show loading
+
+
+    // have a search oncallback which will await and return result after search returns filling in the box area under the search arera
   return (
     <div className="container mx-auto p-4 h-screen flex flex-col">
       <header className="flex justify-between items-center mb-4">
@@ -43,12 +85,32 @@ export default function JournalApp() {
           <div className="mb-6">
             <h2 className="text-2xl font-semibold mb-4">Ask Your Journal</h2>
             <div className="flex gap-2">
-              <Input placeholder="Ask a question about your journal entries..." />
-              <Button size="icon">
+              <Input 
+                placeholder="Ask a question about your journal entries..." 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+              />
+              <Button size="icon" onClick={handleSearch} disabled={isLoading}>
                 <Search className="w-4 h-4" />
                 <span className="sr-only">Search</span>
               </Button>
             </div>
+            
+            {/* Search Results Display */}
+            {(isLoading || searchResult) && (
+              <Card className="mt-4">
+                <CardContent className="pt-4">
+                  {isLoading ? (
+                    <div className="flex items-center justify-center">
+                      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                    </div>
+                  ) : (
+                    <p className="text-sm">{searchResult}</p>
+                  )}
+                </CardContent>
+              </Card>
+            )}
           </div>
 
           <div className="flex-grow overflow-hidden">

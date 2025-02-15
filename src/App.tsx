@@ -1,7 +1,6 @@
 import JournalApp from './Journal'
 
 function App() {
-
   return (
     <>
       <JournalApp/>
