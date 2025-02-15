@@ -77,7 +77,7 @@ def answer_query(query: str, relevant_entries: List[Dict]) -> str:
         messages=[{"role": "user", "content": prompt}]
     )
     
-    return message.content
+    return message.content[0].text
 
 def process_query(query: str) -> str:
     """
@@ -94,12 +94,12 @@ def process_query(query: str) -> str:
     # Get relevant entries
     print("Getting relevant entries")
     relevant_entries = get_relevant_entries(query, entries_df)
-    print([entry["date"] for entry in relevant_entries])
+    #print([entry["date"] for entry in relevant_entries])
     
     # Get answer from Claude
     answer = answer_query(query, relevant_entries)
     
-    return answer
+    return answer, relevant_entries
 
 if __name__ == "__main__":
     query = input("Input your query here: ")
